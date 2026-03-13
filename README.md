@@ -1,6 +1,4 @@
-# Depi_Project
-Graduation Project for Depi initiative
-🛒 Superstore Sales Data Analysis
+🛒 Superstore Sales Data Analysis , Forecasting & Visulization Dashbord
 
 This project analyzes the Superstore Sales dataset to uncover insights related to sales performance, customer behavior, product trends, and regional profitability. The goal is to transform raw transactional data into meaningful business insights using data analysis and visualization techniques.
 .
@@ -18,6 +16,16 @@ Regional sales trends
 Profitability patterns
 
 Opportunities for growth
+
+Team Members
+------------
+1. Karim Basyouny
+2. Basel Abdelfatah atia
+3. Ahmed Abdelhamied Elsayed Elkholy
+4.	Eman khalil abd elmonem
+5.	Abdeltawab Ali Beheit Ali  
+
+
 
 In this project, we explore the Superstore dataset and build visualizations and reports to answer key business questions.
 📂 Dataset
