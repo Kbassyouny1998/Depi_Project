@@ -1,5 +1,7 @@
 � Superstore Sales Data Analysis & Visualization Dashboard
+
 📌 Project Overview
+
 This project analyzes the Superstore Sales Dataset (9,800 records) to uncover key
 business insights related to:
 Sales performance across product categories and regions
@@ -8,14 +10,17 @@ Shipping and logistics efficiency
 Operational trends and revenue patterns
 The final outcome includes an interactive Power BI dashboard, in-depth Python analysis,
 and a professional presentation to support data-driven decision-making.
+
 👥 Team Members
+
 1. Basel Abdelfatah
 2. Eman Khalil
 3. Karim Basyouni
 4. Ahmed Elkholy
 5. Abdeltawab
-�
+
 �Project Plan
+
 1
 ️
 ⃣ Research & Analysis
