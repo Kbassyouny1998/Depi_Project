@@ -1,178 +1,284 @@
-� Superstore Sales Data Analysis & Visualization Dashboard
-
+🛒 Superstore Sales Data Analysis & Visualization Dashboard
 📌 Project Overview
+This project analyzes the Superstore Sales Dataset (9,800 records) to uncover key business insights related to:
 
-This project analyzes the Superstore Sales Dataset (9,800 records) to uncover key
-business insights related to:
+
 Sales performance across product categories and regions
+
+
 Customer segmentation and buying behavior
+
+
 Shipping and logistics efficiency
+
+
 Operational trends and revenue patterns
-The final outcome includes an interactive Power BI dashboard, in-depth Python analysis,
-and a professional presentation to support data-driven decision-making.
+
+
+The final outcome includes:
+
+
+📊 Interactive Power BI dashboard
+
+
+🐍 In-depth Python analysis
+
+
+📑 Professional presentation
+
+
+All aimed at supporting data-driven decision-making.
 
 👥 Team Members
 
-1. Basel Abdelfatah
-2. Eman Khalil
-3. Karim Basyouni
-4. Ahmed Elkholy
-5. Abdeltawab
 
-�Project Plan
+Basel Abdelfatah
 
-1
-️
-⃣ Research & Analysis
+
+Eman Khalil
+
+
+Karim Basyouni
+
+
+Ahmed Elkholy
+
+
+Abdeltawab
+
+
+
+📋 Project Plan
+1️⃣ Research & Analysis
 Business & Data Understanding
-Analyze dataset structure: orders, customers, products, categories, shipping, and sales
+
+
+Analyze dataset structure: orders, customers, products, shipping, and sales
+
+
 Identify core business objectives
+
+
 Define key analytical questions
+
+
 Dataset Snapshot
-Property
-Details
-Records
-9,800 rows
-Features
-18 columns
-Date Range
-2017 – 2018
-Total Sales
-~$2.26M
-Categories
-Furniture, Office Supplies, Technology
-Regions
-East, West, Central, South
-Customer Segments
-Consumer, Corporate, Home Office
-Shipping Modes
-Standard Class, Second Class, First Class, Same Day
+PropertyDetailsRecords9,800 rowsFeatures18 columnsDate Range2017 – 2018Total Sales~$2.26MCategoriesFurniture, Office Supplies, TechnologyRegionsEast, West, Central, SouthCustomer SegmentsConsumer, Corporate, Home OfficeShipping ModesStandard, Second, First, Same Day
 Audience Personas
-Executive Management – Revenue trends & strategic insights
-Sales Manager – Regional performance & product category analysis
-Operations Manager – Shipping mode efficiency & order fulfillment
-Finance Team – Cost control & sales margin evaluation
-2
-️
-⃣ Visual Identity
-Professional and consistent dashboard layout
-Clear KPI cards and visual hierarchy
-Structured color palette aligned with business reporting standards
-Standardized formatting across reports and presentations
-3
-️
-⃣ Main Project Components
+
+
+Executive Management – Strategic insights & revenue trends
+
+
+Sales Manager – Regional & category performance
+
+
+Operations Manager – Shipping efficiency
+
+
+Finance Team – Cost control & profitability
+
+
+
+2️⃣ Visual Identity
+
+
+Clean and professional dashboard layout
+
+
+Clear KPI cards and hierarchy
+
+
+Consistent color palette
+
+
+Standardized formatting across all deliverables
+
+
+
+3️⃣ Main Project Components
 📊 Data Modeling
-Build a structured data model (Fact & Dimension tables)
+
+
+Build structured Fact & Dimension tables
+
+
 Establish relationships using SQL
-Prepare clean data model for Power BI integration
+
+
+Prepare model for Power BI
+
+
 🧹 Data Cleaning & Preprocessing
-Handle missing values (11 null entries identified)
-Remove duplicate records
-Standardize and convert date formats (Order Date, Ship Date)
-Treat outliers in the Sales column
-Validate Postal Code and region consistency
-�
-� Data Analysis
-Sales performance by product category and sub-category (17 sub-categories)
-Revenue breakdown by region (East, West, Central, South)
-Customer segment analysis (Consumer, Corporate, Home Office)
-Shipping mode performance and delivery time evaluation
-Top-selling products and underperforming SKUs
-Monthly and yearly sales trend analysis
+
+
+Handle missing values (11 nulls identified)
+
+
+Remove duplicates
+
+
+Standardize date formats
+
+
+Treat outliers in sales
+
+
+Validate postal codes and regions
+
+
+📈 Data Analysis
+
+
+Sales by category & sub-category (17 sub-categories)
+
+
+Regional revenue breakdown
+
+
+Customer segment analysis
+
+
+Shipping performance & delivery time
+
+
+Top and underperforming products
+
+
+Monthly & yearly trends
+
+
 🖼 Executive Summary Poster
-One-page insight visualization
-Key findings snapshot for stakeholders
-4
-️
-⃣ Complementary Deliverables
-📊 Power BI Interactive Dashboard
-📓 Jupyter Notebook (Cleaning & Exploratory Analysis)
-🗄
-SQL Scripts (Data Modeling & Queries)
+
+
+One-page stakeholder-friendly insights
+
+
+
+4️⃣ Complementary Deliverables
+
+
+📊 Power BI Dashboard
+
+
+📓 Jupyter Notebook
+
+
+🗄 SQL Scripts
+
+
 📑 Final Report (PDF)
+
+
 🎤 PowerPoint Presentation
-5
-️
-⃣ Review & Finalization
-Data validation and accuracy checks
-Calculation and metric verification
-Dashboard usability refinement
-Final proofreading of all deliverables
-6
-️
-⃣ Final Presentation
-Project objectives and scope
+
+
+
+5️⃣ Review & Finalization
+
+
+Data validation & accuracy checks
+
+
+KPI verification
+
+
+Dashboard usability improvements
+
+
+Final proofreading
+
+
+
+6️⃣ Final Presentation
+
+
+Project objectives
+
+
 Data preparation process
-Key business insights
+
+
+Key insights
+
+
 Actionable recommendations
-Dashboard demonstration
-👨
-‍
-💻 Roles & Responsibilities
-Role
-Responsibilities
-Data Analyst
-Data cleaning, SQL queries, exploratory analysis
-BI Developer
-Power BI dashboard creation & design
-Data Engineer
-Data modeling, SQL schema, Excel preprocessing
-Project Manager
-Timeline management & team coordination
-Documentation Lead
-Final report & presentation preparation
-�
-� Key Performance Indicators (KPIs)
+
+
+Dashboard demo
+
+
+
+👨‍💻 Roles & Responsibilities
+RoleResponsibilitiesData AnalystData cleaning, EDA, SQL queriesBI DeveloperDashboard design & developmentData EngineerData modeling & preprocessingProject ManagerTimeline & coordinationDocumentation LeadReports & presentation
+
+📊 Key Performance Indicators (KPIs)
 🔧 Technical KPIs
+
+
 Data accuracy ≥ 98%
+
+
 Dashboard load time < 5 seconds
-Full coverage of all 18 dataset features in analysis
+
+
+Full dataset feature coverage
+
+
 💼 Business KPIs
-Clear identification of top revenue-generating categories
-Regional sales performance benchmarking
-Customer segment contribution to total revenue
-Shipping mode efficiency metrics
-Actionable insights delivered to all audience personas
+
+
+Identify top revenue categories
+
+
+Regional performance benchmarking
+
+
+Customer segment contribution
+
+
+Shipping efficiency metrics
+
+
+Actionable insights for stakeholders
+
+
+
 🛠 Tools & Technologies
-Tool
-Purpose
-Python (pandas, matplotlib, scikit-learn)
-Data cleaning, EDA, visualizations
-SQL
-Data modeling, querying, relationships
-Power BI
-Interactive dashboard & reporting
-Excel
-Initial data exploration & preprocessing
-�
-� Repository Structure
-📦 superstore-sales-analysis
-├
-── 📂 data/
-│   └── Superstore_Sales_Dataset.csv
-├
-── 📂 notebooks/
-│   └── superstore_analysis.ipynb
-├
-── 📂 sql/
-│   └── data_model.sql
-│   └── queries.sql
-├
-── 📂 dashboard/
-│   └── superstore_dashboard.pbix
-├
-── 📂 reports/
-│   └── final_report.pdf
-│   └── presentation.pptx
-└── README.md
+ToolPurposePythonData cleaning, EDA, visualizationSQLData modeling & queryingPower BIDashboard & reportingExcelInitial exploration & preprocessing
+
+📂 Repository Structure
+📦 superstore-sales-analysis├── 📂 data/│   └── Superstore_Sales_Dataset.csv├── 📂 notebooks/│   └── superstore_analysis.ipynb├── 📂 sql/│   ├── data_model.sql│   └── queries.sql├── 📂 dashboard/│   └── superstore_dashboard.pbix├── 📂 reports/│   ├── final_report.pdf│   └── presentation.pptx└── README.md
+
 🚀 Expected Impact
-This project enables data-driven retail sales optimization by:
-Identifying high-performing and underperforming product categories
-Uncovering regional sales disparities and growth opportunities
-Improving understanding of customer segment behavior
-Optimizing shipping mode selection to reduce costs
-Supporting strategic decision-making through clear visual storytelling
-�
-� This repository contains all project notebooks, SQL scripts, Power BI dashboards,
-and pdentification of high-discount loss areas
+This project enables data-driven retail optimization by:
+
+
+Identifying high- and low-performing product categories
+
+
+Highlighting regional sales opportunities
+
+
+Understanding customer behavior
+
+
+Improving shipping efficiency
+
+
+Supporting strategic decision-making through clear visuals
+
+
+
+If you want, I can also:
+
+
+Make it shorter for recruiters
+
+
+Add badges (GitHub, Power BI, Python)
+
+
+Or tailor it for a portfolio/LinkedIn project post
+
+
