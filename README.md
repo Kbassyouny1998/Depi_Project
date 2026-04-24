@@ -1,5 +1,5 @@
-🛒 Superstore Sales Data Analysis & Visualization Dashboard
-📌 Project Overview
+Superstore Sales Data Analysis & Visualization Dashboard
+ Project Overview
 This project analyzes the Superstore Sales Dataset (9,800 records) to uncover key business insights related to:
 
 
@@ -17,11 +17,9 @@ Operational trends and revenue patterns
 
 The final outcome includes:
 
+ Interactive Power BI dashboard
 
-📊 Interactive Power BI dashboard
-
-
-🐍 In-depth Python analysis
+ In-depth Python analysis
 
 
 📑 Professional presentation
@@ -224,8 +222,7 @@ Dashboard load time < 5 seconds
 
 Full dataset feature coverage
 
-
-💼 Business KPIs
+Business KPIs
 
 
 Identify top revenue categories
@@ -244,13 +241,13 @@ Actionable insights for stakeholders
 
 
 
-🛠 Tools & Technologies
+ Tools & Technologies
 ToolPurposePythonData cleaning, EDA, visualizationSQLData modeling & queryingPower BIDashboard & reportingExcelInitial exploration & preprocessing
 
 📂 Repository Structure
 📦 superstore-sales-analysis├── 📂 data/│   └── Superstore_Sales_Dataset.csv├── 📂 notebooks/│   └── superstore_analysis.ipynb├── 📂 sql/│   ├── data_model.sql│   └── queries.sql├── 📂 dashboard/│   └── superstore_dashboard.pbix├── 📂 reports/│   ├── final_report.pdf│   └── presentation.pptx└── README.md
 
-🚀 Expected Impact
+Expected Impact
 This project enables data-driven retail optimization by:
 
 
@@ -270,15 +267,7 @@ Supporting strategic decision-making through clear visuals
 
 
 
-If you want, I can also:
 
 
-Make it shorter for recruiters
-
-
-Add badges (GitHub, Power BI, Python)
-
-
-Or tailor it for a portfolio/LinkedIn project post
 
 
