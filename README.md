@@ -1,5 +1,8 @@
 Superstore Sales Data Analysis & Visualization Dashboard
+<br>
  Project Overview
+
+ 
 This project analyzes the Superstore Sales Dataset (9,800 records) to uncover key business insights related to:
 
 
