@@ -1,6 +1,13 @@
-Superstore Sales Data Analysis & Visualization Dashboard
-<br>
- Project Overview
+<div align="center">
+# Superstore Sales Analysis & Dashboard
+ 
+ 
+*An end-to-end data analysis project on 9,800 retail records — uncovering sales trends, customer behavior, and operational insights through interactive dashboards and in-depth Python analysis.*
+ 
+[View Dashboard](#tools--technologies) • [Notebook](#repository-structure) • [Report](#repository-structure)
+ 
+</div>
+---
 
  
 This project analyzes the Superstore Sales Dataset (9,800 records) to uncover key business insights related to:
