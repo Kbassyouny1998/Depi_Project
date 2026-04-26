@@ -12,38 +12,111 @@ The final outcome includes: Interactive Power BI dashboard In-depth Python analy
 
 ## Team Members:
 
-Basel Abdelfatah 
-
-Eman Khalil 
-
-Karim Basyouni 
-
-Ahmed Elkholy 
-
-Abdeltawab 
-
+- Basel Abdelfatah 
+- Eman Khalil 
+- Karim Basyouni 
+- Ahmed Elkholy 
+- Abdeltawab 
 <hr>
 
 ## Project Plan: 
 
-1. Research & Analysis Business & Data Understanding:
+### 1. Research & Analysis Business & Data Understanding:
  - Analyze dataset structure: orders, customers, products, shipping, and sales
  - Identify core business objectives
  - Define key analytical questions
  - Dataset Snapshot Property
- - DetailsRecords; 9,800 rows
- - Features:-
- -  18 columns Date:  Range2017 – 2018Total Sales~$2.26MCategoriesFurniture, Office Supplies, TechnologyRegionsEast, West, Central, SouthCustomer SegmentsConsumer, Corporate, Home Office, Shipping Modes Standard, Second, First, Same Day Audience Personas Executive Management – Strategic insights & revenue trends Sales Manager – Regional & category performance Operations Manager – Shipping efficiency Finance Team – Cost control & profitability. 
+ - Details Records; 9,800 rows
+### 2. Features:
 
-3. Visual Identity Clean and professional dashboard layout Clear KPI cards and hierarchy Consistent color palette Standardized formatting across all deliverables 
+ 
+ 18 columns Date: 
 
-4. Main Project Components 📊 Data Modeling Build structured Fact & Dimension tables Establish relationships using SQL Prepare model for Power BI 🧹 Data Cleaning & Preprocessing Handle missing values (11 nulls identified) Remove duplicates Standardize date formats Treat outliers in sales Validate postal codes and regions 📈 Data Analysis Sales by category & sub-category (17 sub-categories) Regional revenue breakdown Customer segment analysis Shipping performance & delivery time Top and underperforming products Monthly & yearly trends 🖼 Executive Summary Poster One-page stakeholder-friendly insights 
+ 
+ - Range: 2017 – 2018
+ 
+ 
+ - Total Sales: ~$2.26M
+ 
+ 
+ - Categories:
+   - Furniture
+   - Office Supplies
+   - Technology
+ 
+ 
+ - Regions:
+   - East
+   - West
+   - Central
+   - South
+ 
+ 
+ - Customer Segments:
+   - Consumer
+   - Corporate
+   - Home Office, 
+ 
+ 
+ - Shipping Modes:
+    - Standard
+    - Second
+    - First 
+    - Same Day Audience 
+ 
+ 
+ - Personas:
+   - Executive Management
+   - Strategic insights & revenue trends Sales Manager
+   - Regional & category performance Operations Manager
+   - Shipping efficiency Finance Team
+   - Cost control & profitability. 
 
-5. Complementary Deliverables 📊 Power BI Dashboard 📓 Jupyter Notebook 🗄 SQL Scripts 📑 Final Report (PDF) 🎤 PowerPoint Presentation 
+### 3. Visual Identity:
 
-6. Review & Finalization Data validation & accuracy checks KPI verification Dashboard usability improvements Final proofreading 
 
-7. Final Presentation Project objectives: Data preparation process Key insights Actionable recommendations Dashboard demo
+  Clean and professional dashboard layout Clear KPI cards and hierarchy Consistent color palette Standardized formatting across all deliverables 
+
+### 4. Main Project Components:
+ - Data Modeling Build structured Fact & Dimension tables Establish relationships using SQL Prepare model for Power BI
+ 
+ 
+ - Data Cleaning & Preprocessing:
+   - Handle missing values (11 nulls identified)
+   - Remove duplicates Standardize date formats
+   - Treat outliers in sales Validate postal codes and regions
+ 
+ 
+ - Data Analysis:
+   - Sales by category & sub-category (17 sub-categories)
+   - Regional revenue breakdown
+   - Customer segment analysis
+   - Shipping performance & delivery time
+   - Top and underperforming products Monthly & yearly trends
+   - Executive Summary Poster One-page stakeholder-friendly insights 
+
+### 5. Complementary Deliverables:
+
+ 
+ - Power BI Dashboard 
+
+ - Jupyter Notebook 
+
+ - SQL Scripts 
+
+ - Final Report (PDF) 
+
+ - PowerPoint Presentation 
+
+### 6. Review & Finalization:
+
+
+  Data validation & accuracy checks KPI verification Dashboard usability improvements Final proofreading 
+
+### 7. Final Presentation Project objectives: 
+
+
+  Data preparation process Key insights Actionable recommendations Dashboard demo
 
 <hr>
 
@@ -98,15 +171,15 @@ Responsibilities:
 
 ## Expected Impact: 
 
-This project enables data-driven retail optimization by: 
+### This project enables data-driven retail optimization by: 
 
-Identifying high- and low-performing product categories. 
+- Identifying high- and low-performing product categories. 
 
-Highlighting regional sales opportunities. 
+- Highlighting regional sales opportunities. 
 
-Understanding customer behavior Improving shipping efficiency. 
+- Understanding customer behavior Improving shipping efficiency. 
 
-Supporting strategic decision-making through clear visuals.
+- Supporting strategic decision-making through clear visuals.
 
 <hr>
 
