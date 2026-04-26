@@ -120,12 +120,18 @@ The final outcome includes: Interactive Power BI dashboard In-depth Python analy
 ### 6. Review & Finalization:
 
 
-  Data validation & accuracy checks KPI verification Dashboard usability improvements Final proofreading 
+  - Data validation & accuracy checks
+  - KPI verification
+  - Dashboard usability improvements
+  - Final proofreading 
 
 ### 7. Final Presentation Project objectives: 
 
 
-  Data preparation process Key insights Actionable recommendations Dashboard demo
+  - Data preparation process
+  - Key insights
+  - Actionable recommendations
+  - Dashboard demo
 
 <hr>
 
