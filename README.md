@@ -21,16 +21,24 @@ The final outcome includes: Interactive Power BI dashboard In-depth Python analy
 
 ## Project Plan: 
 
+
 ### 1. Research & Analysis Business & Data Understanding:
+
+
  - Analyze dataset structure: orders, customers, products, shipping, and sales
  - Identify core business objectives
  - Define key analytical questions
  - Dataset Snapshot Property
  - Details Records; 9,800 rows
+
+
 ### 2. Features:
 
  
- 18 columns Date: 
+ 18 columns: 
+ 
+ 
+ - Date 
 
  
  - Range: 2017 – 2018
@@ -71,6 +79,7 @@ The final outcome includes: Interactive Power BI dashboard In-depth Python analy
    - Regional & category performance Operations Manager
    - Shipping efficiency Finance Team
    - Cost control & profitability. 
+
 
 ### 3. Visual Identity:
 
@@ -134,6 +143,8 @@ Responsibilities:
 
 - Documentation LeadReports & presentation 
 
+<hr>
+
 ## Key Performance Indicators (KPIs):
 
 - Technical KPIs Data accuracy ≥ 98% 
@@ -152,13 +163,13 @@ Responsibilities:
 
 ## Tools & Technologies Tool:
 
-- PurposePythonData cleaning, EDA, visualization
+- Python: Data cleaning, EDA, visualization
 
-- SQLData modeling & queryingPower 
+- SQL: Data modeling & querying
 
-- BIDashboard & reporting
+- Power BI: Dashboard & reporting
 
-- ExcelInitial exploration & preprocessing
+- Excel: Initial exploration & preprocessing
 
 <hr>
 
