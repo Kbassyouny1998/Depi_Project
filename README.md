@@ -1,8 +1,7 @@
-# Superstore Sales Data Analysis & Visualization Dashboard Project
-
+<h1 style="text-align: center;" align="center"><strong>Superstore Sales Data Analysis &amp; Visualization Dashboard</strong></h1>
 <hr>
 
-<p><strong>Project Overview</strong></p>
+<h2><strong>Project Overview</strong></h2>
 <p>This project analyzes the <strong>Superstore Sales Dataset</strong> (9,800 records) to uncover key business insights related to:</p>
 <ul>
 <li>Sales performance across product categories and regions</li>
@@ -14,7 +13,7 @@
 
 <hr>
 
-## Team Members:
+<h2><strong> Team Members<strong></h2>
 
 - Basel Abdelfatah 
 - Eman Khalil 
@@ -23,10 +22,10 @@
 - Abdeltawab 
 <hr>
 
-## Project Plan: 
+<h2><strong>Project Plan<strong></h2>
 
 
-### 1. Research & Analysis Business & Data Understanding:
+<h3><strong>1. Research & Analysis Business & Data Understanding</strong></h3>
 
 
  - Analyze dataset structure: orders, customers, products, shipping, and sales
@@ -36,71 +35,111 @@
  - Details Records; 9,800 rows
 
 
-### 2. Features:
+<h3><strong>2.Dataset Snapshot</strong></h3>
+<table>
+<thead>
+<tr>
+<td>
+<p><strong>Property</strong></p>
+</td>
+<td>
+<p><strong>Details</strong></p>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Records</p>
+</td>
+<td>
+<p>9,800 rows</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Features</p>
+</td>
+<td>
+<p>18 columns</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Date Range</p>
+</td>
+<td>
+<p>2017 &ndash; 2018</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Total Sales</p>
+</td>
+<td>
+<p>~$2.26M</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Categories</p>
+</td>
+<td>
+<p>Furniture, Office Supplies, Technology</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Regions</p>
+</td>
+<td>
+<p>East, West, Central, South</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Customer Segments</p>
+</td>
+<td>
+<p>Consumer, Corporate, Home Office</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Shipping Modes</p>
+</td>
+<td>
+<p>Standard Class, Second Class, First Class, Same Day</p>
+</td>
+</tr>
+</tbody>
+</table>
 
- 
- 18 columns: 
- 
- 
- - Date 
-
- 
- - Range: 2017 – 2018
- 
- 
- - Total Sales: ~$2.26M
- 
- 
- - Categories:
-   - Furniture
-   - Office Supplies
-   - Technology
- 
- 
- - Regions:
-   - East
-   - West
-   - Central
-   - South
- 
- 
- - Customer Segments:
-   - Consumer
-   - Corporate
-   - Home Office, 
- 
- 
- - Shipping Modes:
-    - Standard
-    - Second
-    - First 
-    - Same Day Audience 
- 
- 
- - Personas:
-   - Executive Management
-   - Strategic insights & revenue trends Sales Manager
-   - Regional & category performance Operations Manager
-   - Shipping efficiency Finance Team
-   - Cost control & profitability. 
+<h3><strong>Audience Personas</strong></h3>
+<ul>
+<li><strong>Executive Management</strong> &ndash; Revenue trends &amp; strategic insights</li>
+<li><strong>Sales Manager</strong> &ndash; Regional performance &amp; product category analysis</li>
+<li><strong>Operations Manager</strong> &ndash; Shipping mode efficiency &amp; order fulfillment</li>
+<li><strong>Finance Team</strong> &ndash; Cost control &amp; sales margin evaluation</li>
+</ul>
 
 
-### 3. Visual Identity:
+<h3><strong> 3. Visual Identity<strong></h3>
 
 
   Clean and professional dashboard layout Clear KPI cards and hierarchy Consistent color palette Standardized formatting across all deliverables 
 
-### 4. Main Project Components:
+<h3><strong> 4. Main Project Components<strong></h3>
  - Data Modeling Build structured Fact & Dimension tables Establish relationships using SQL Prepare model for Tableau
  
  
- - Data Cleaning & Preprocessing:
+ <h4><strong>Data Cleaning & Preprocessing<strong></h4>
    - Handle missing values (11 nulls identified)
    - Remove duplicates Standardize date formats
    - Treat outliers in sales Validate postal codes and regions
  
  
- - Data Analysis:
+<h4><strong> Data Analysis<strong></h4>
    - Sales by category & sub-category (17 sub-categories)
    - Regional revenue breakdown
    - Customer segment analysis
@@ -108,7 +147,7 @@
    - Top and underperforming products Monthly & yearly trends
    - Executive Summary Poster One-page stakeholder-friendly insights 
 
-### 5. Complementary Deliverables:
+<h3><strong>  5. Complementary Deliverables<strong></h3>
 
  
  - Tableau Dashboard 
@@ -121,7 +160,7 @@
 
  - PowerPoint Presentation 
 
-### 6. Review & Finalization:
+<h3><strong> 6. Review & Finalization <strong></h3>
 
 
   - Data validation & accuracy checks
@@ -129,7 +168,7 @@
   - Dashboard usability improvements
   - Final proofreading 
 
-### 7. Final Presentation Project objectives: 
+<h3><strong> 7. Final Presentation Project objectives <strong></h3>
 
 
   - Data preparation process
@@ -139,9 +178,9 @@
 
 <hr>
 
-## Roles & Responsibilities Role
+<h2><strong> Roles & Responsibilities Role<strong></h2>
 
-Responsibilities:
+<h3><strong>Responsibilities<strong></h3>
 
 - Data cleaning, EDA, SQL queries
 
@@ -155,7 +194,7 @@ Responsibilities:
 
 <hr>
 
-## Key Performance Indicators (KPIs):
+<h3><strong> Key Performance Indicators (KPIs)<strong></h3>
 
 - Technical KPIs Data accuracy ≥ 98% 
 
@@ -171,7 +210,7 @@ Responsibilities:
 
 <hr>
 
-## Tools & Technologies Tool:
+<h2><strong> Tools & Technologies Tool<strong></h2>
 
 <table>
 <thead>
@@ -221,7 +260,7 @@ Responsibilities:
 </table>
 <hr>
 
-<p><strong>Repository Structure</strong></p>
+<h2><strong>Repository Structure<strong></h2>
 <p>Superstore-sales-analysis</p>
 <p>├── 📂 data/</p>
 <p>│&nbsp;&nbsp; └── Superstore_Sales_Dataset.csv</p>
@@ -238,9 +277,9 @@ Responsibilities:
 <p>└── README.md</p>
 <hr>
 
-## Expected Impact: 
+<h2><strong> Expected Impact<strong></h2>
 
-### This project enables data-driven retail optimization by: 
+<strong> This project enables data-driven retail optimization by<strong>
 
 - Identifying high- and low-performing product categories. 
 
