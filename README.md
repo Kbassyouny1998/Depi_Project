@@ -129,24 +129,29 @@
 
   Clean and professional dashboard layout Clear KPI cards and hierarchy Consistent color palette Standardized formatting across all deliverables 
 
-<h3><strong> 4. Main Project Components<strong></h3>
- - Data Modeling Build structured Fact & Dimension tables Establish relationships using SQL Prepare model for Tableau
- 
- 
- <h4><strong>Data Cleaning & Preprocessing<strong></h4>
-   - Handle missing values (11 nulls identified)
-   - Remove duplicates Standardize date formats
-   - Treat outliers in sales Validate postal codes and regions
- 
- 
-<h4><strong> Data Analysis<strong></h4>
-   - Sales by category & sub-category (17 sub-categories)
-   - Regional revenue breakdown
-   - Customer segment analysis
-   - Shipping performance & delivery time
-   - Top and underperforming products Monthly & yearly trends
-   - Executive Summary Poster One-page stakeholder-friendly insights 
-
+<h4><strong>Data Modeling</strong></h4>
+<ul>
+<li>Build a structured data model (Fact &amp; Dimension tables)</li>
+<li>Establish relationships using SQL</li>
+<li>Prepare clean data model for Power BI integration</li>
+</ul>
+<h4><strong>&nbsp;Data Cleaning &amp; Preprocessing</strong></h4>
+<ul>
+<li>Handle missing values (11 null entries identified)</li>
+<li>Remove duplicate records</li>
+<li>Standardize and convert date formats (Order Date, Ship Date)</li>
+<li>Treat outliers in the Sales column</li>
+<li>Validate Postal Code and region consistency</li>
+</ul>
+<h4><strong>&nbsp;Data Analysis</strong></h4>
+<ul>
+<li>Sales performance by product category and sub-category (17 sub-categories)</li>
+<li>Revenue breakdown by region (East, West, Central, South)</li>
+<li>Customer segment analysis (Consumer, Corporate, Home Office)</li>
+<li>Shipping mode performance and delivery time evaluation</li>
+<li>Top-selling products and underperforming SKUs</li>
+<li>Monthly and yearly sales trend analysis</li>
+</ul>
 <h3><strong>  5. Complementary Deliverables<strong></h3>
 
  
