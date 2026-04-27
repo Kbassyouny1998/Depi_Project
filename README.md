@@ -2,11 +2,15 @@
 
 <hr>
 
-## Project Overview: 
-This project analyzes the Superstore Sales Dataset (9,800 records) to uncover key business insights related to: Sales performance across product categories and regions Customer segmentation and buying behavior Shipping and logistics efficiency Operational trends and revenue patterns 
-
-
-The final outcome includes: Interactive Power BI dashboard In-depth Python analysis 📑 Professional presentation All aimed at supporting data-driven decision-making.
+<p><strong>Project Overview</strong></p>
+<p>This project analyzes the <strong>Superstore Sales Dataset</strong> (9,800 records) to uncover key business insights related to:</p>
+<ul>
+<li>Sales performance across product categories and regions</li>
+<li>Customer segmentation and buying behavior</li>
+<li>Shipping and logistics efficiency</li>
+<li>Operational trends and revenue patterns</li>
+</ul>
+<p>The final outcome includes an interactive <strong>Tableau dashboard</strong>, in-depth <strong>Python analysis</strong>, and a professional presentation to support data-driven decision-making.</p>
 
 <hr>
 
@@ -87,7 +91,7 @@ The final outcome includes: Interactive Power BI dashboard In-depth Python analy
   Clean and professional dashboard layout Clear KPI cards and hierarchy Consistent color palette Standardized formatting across all deliverables 
 
 ### 4. Main Project Components:
- - Data Modeling Build structured Fact & Dimension tables Establish relationships using SQL Prepare model for Power BI
+ - Data Modeling Build structured Fact & Dimension tables Establish relationships using SQL Prepare model for Tableau
  
  
  - Data Cleaning & Preprocessing:
@@ -107,7 +111,7 @@ The final outcome includes: Interactive Power BI dashboard In-depth Python analy
 ### 5. Complementary Deliverables:
 
  
- - Power BI Dashboard 
+ - Tableau Dashboard 
 
  - Jupyter Notebook 
 
@@ -139,13 +143,13 @@ The final outcome includes: Interactive Power BI dashboard In-depth Python analy
 
 Responsibilities:
 
-- Data AnalystData cleaning, EDA, SQL queries
+- Data cleaning, EDA, SQL queries
 
-- BI DeveloperDashboard design & development
+- Dashboard design & development
 
-- Data EngineerData modeling & preprocessing
+- Data modeling & preprocessing
 
-- Project ManagerTimeline & coordination
+- Timeline & coordination
 
 - Documentation LeadReports & presentation 
 
@@ -169,21 +173,69 @@ Responsibilities:
 
 ## Tools & Technologies Tool:
 
-- Python: Data cleaning, EDA, visualization
-
-- SQL: Data modeling & querying
-
-- Power BI: Dashboard & reporting
-
-- Excel: Initial exploration & preprocessing
-
+<table>
+<thead>
+<tr>
+<td>
+<p><strong>Tool</strong></p>
+</td>
+<td>
+<p><strong>Purpose</strong></p>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Python</strong> (pandas, matplotlib, scikit-learn)</p>
+</td>
+<td>
+<p>Data cleaning, EDA, visualizations</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>SQL</strong></p>
+</td>
+<td>
+<p>Data modeling, querying, relationships</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Tableau</strong></p>
+</td>
+<td>
+<p>Interactive dashboard &amp; reporting</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Excel</strong></p>
+</td>
+<td>
+<p>Initial data exploration &amp; preprocessing</p>
+</td>
+</tr>
+</tbody>
+</table>
 <hr>
 
-## Repository Structure:
-
-
- superstore-sales-analysis├── 📂 data/│ └── Superstore_Sales_Dataset.csv├── 📂 notebooks/│ └── superstore_analysis.ipynb├── 📂 sql/│ ├── data_model.sql│ └── queries.sql├── 📂 dashboard/│ └── superstore_dashboard.pbix├── 📂 reports/│ ├── final_report.pdf│ └── presentation.pptx└── README.md 
-
+<p><strong>Repository Structure</strong></p>
+<p>Superstore-sales-analysis</p>
+<p>├── 📂 data/</p>
+<p>│&nbsp;&nbsp; └── Superstore_Sales_Dataset.csv</p>
+<p>├── 📂 notebooks/</p>
+<p>│&nbsp;&nbsp; └── superstore_analysis.ipynb</p>
+<p>├── 📂 sql/</p>
+<p>│&nbsp;&nbsp; └── data_model.sql</p>
+<p>│&nbsp;&nbsp; └── queries.sql</p>
+<p>├── 📂 dashboard/</p>
+<p>│&nbsp;&nbsp; └── superstore_dashboard.twb</p>
+<p>├── 📂 reports/</p>
+<p>│&nbsp;&nbsp; └── final_report.pdf</p>
+<p>│&nbsp;&nbsp; └── presentation.pptx</p>
+<p>└── README.md</p>
 <hr>
 
 ## Expected Impact: 
