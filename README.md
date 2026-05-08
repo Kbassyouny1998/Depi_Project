@@ -16,10 +16,8 @@
 <h2><strong> Team Members<strong></h2>
 
 - Basel Abdelfatah 
-- Eman Khalil 
 - Karim Basyouni 
 - Ahmed Elkholy 
-- Abdeltawab 
 <hr>
 
 <h2><strong>Project Plan<strong></h2>
