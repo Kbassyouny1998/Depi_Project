@@ -1,296 +1,143 @@
-<h1 style="text-align: center;" align="center"><strong>Superstore Sales Data Analysis &amp; Visualization Dashboard</strong></h1>
-<hr>
+# Superstore Sales & Returns Analysis
 
-<h2><strong>Project Overview</strong></h2>
-<p>This project analyzes the <strong>Superstore Sales Dataset</strong> (9,800 records) to uncover key business insights related to:</p>
-<ul>
-<li>Sales performance across product categories and regions</li>
-<li>Customer segmentation and buying behavior</li>
-<li>Shipping and logistics efficiency</li>
-<li>Operational trends and revenue patterns</li>
-</ul>
-<p>The final outcome includes an interactive <strong>Tableau dashboard</strong>, in-depth <strong>Python analysis</strong>, and a professional presentation to support data-driven decision-making.</p>
+> **DEPI Final Project** — End-to-end data analysis and interactive Tableau dashboard built on the Sample Superstore dataset.
 
-<hr>
+---
 
-<h2><strong> Team Members<strong></h2>
+## Project Structure
 
-- Basel Abdelfatah 
-- Karim Basyouni 
-- Ahmed Elkholy 
-<hr>
+```
+├── project.ipynb                   # Python data preparation & EDA notebook
+├── DEPI_Final_Project_2_.twbx      # Tableau packaged workbook (dashboard)
+└── README.md
+```
 
-<h2><strong>Project Plan<strong></h2>
+---
 
+## Project Overview
 
-<h3><strong>1. Research & Analysis Business & Data Understanding</strong></h3>
+This project performs a full analysis of retail sales, profitability, discounts, and return behavior using the **Sample Superstore** dataset. It combines Python-based data wrangling with a rich Tableau dashboard to uncover actionable business insights.
 
+---
 
- - Analyze dataset structure: orders, customers, products, shipping, and sales
- - Identify core business objectives
- - Define key analytical questions
- - Dataset Snapshot Property
- - Details Records; 9,800 rows
+## Python Notebook — `project.ipynb`
 
+### What it does
 
-<h3><strong>2.Dataset Snapshot</strong></h3>
-<table>
-<thead>
-<tr>
-<td>
-<p><strong>Property</strong></p>
-</td>
-<td>
-<p><strong>Details</strong></p>
-</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Records</p>
-</td>
-<td>
-<p>9,800 rows</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Features</p>
-</td>
-<td>
-<p>18 columns</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Date Range</p>
-</td>
-<td>
-<p>2017 &ndash; 2018</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Total Sales</p>
-</td>
-<td>
-<p>~$2.26M</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Categories</p>
-</td>
-<td>
-<p>Furniture, Office Supplies, Technology</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Regions</p>
-</td>
-<td>
-<p>East, West, Central, South</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Customer Segments</p>
-</td>
-<td>
-<p>Consumer, Corporate, Home Office</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Shipping Modes</p>
-</td>
-<td>
-<p>Standard Class, Second Class, First Class, Same Day</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Step | Description |
+|------|-------------|
+| **Data Loading** | Reads three sheets from `sample_-_superstore.xls`: `Orders`, `Returns`, and `People` |
+| **Data Merging** | LEFT JOINs `Returns` on `Order ID`, then `People` on `Region` to build a unified `df_final` |
+| **Cleaning** | Fills null `Returned` values with `"No"`, creates a binary `Returned Flag` column |
+| **Type Fixing** | Parses `Order Date` and `Ship Date` as proper datetime columns |
+| **EDA** | Shape, dtypes, null %, duplicates, descriptive stats, and profit by category |
 
-<h3><strong>Audience Personas</strong></h3>
-<ul>
-<li><strong>Executive Management</strong> &ndash; Revenue trends &amp; strategic insights</li>
-<li><strong>Sales Manager</strong> &ndash; Regional performance &amp; product category analysis</li>
-<li><strong>Operations Manager</strong> &ndash; Shipping mode efficiency &amp; order fulfillment</li>
-<li><strong>Finance Team</strong> &ndash; Cost control &amp; sales margin evaluation</li>
-</ul>
+### Key Libraries
 
+- `pandas`
+- `xlrd` (for legacy `.xls` files)
 
-<h3><strong> 3. Visual Identity<strong></h3>
+### How to Run
 
+```bash
+pip install pandas xlrd
+jupyter notebook project.ipynb
+```
 
-  Clean and professional dashboard layout Clear KPI cards and hierarchy Consistent color palette Standardized formatting across all deliverables 
+> Make sure `sample_-_superstore.xls` is placed at the path referenced in the notebook, or update the `file_path` variable accordingly.
 
-<h4><strong>Data Modeling</strong></h4>
-<ul>
-<li>Build a structured data model (Fact &amp; Dimension tables)</li>
-<li>Establish relationships using SQL</li>
-<li>Prepare clean data model for Power BI integration</li>
-</ul>
-<h4><strong>&nbsp;Data Cleaning &amp; Preprocessing</strong></h4>
-<ul>
-<li>Handle missing values (11 null entries identified)</li>
-<li>Remove duplicate records</li>
-<li>Standardize and convert date formats (Order Date, Ship Date)</li>
-<li>Treat outliers in the Sales column</li>
-<li>Validate Postal Code and region consistency</li>
-</ul>
-<h4><strong>&nbsp;Data Analysis</strong></h4>
-<ul>
-<li>Sales performance by product category and sub-category (17 sub-categories)</li>
-<li>Revenue breakdown by region (East, West, Central, South)</li>
-<li>Customer segment analysis (Consumer, Corporate, Home Office)</li>
-<li>Shipping mode performance and delivery time evaluation</li>
-<li>Top-selling products and underperforming SKUs</li>
-<li>Monthly and yearly sales trend analysis</li>
-</ul>
-<h3><strong>  5. Complementary Deliverables<strong></h3>
+---
 
- 
- - Tableau Dashboard 
+## Tableau Dashboard — `DEPI_Final_Project_2_.twbx`
 
- - Jupyter Notebook 
+Open with **Tableau Desktop** or **Tableau Public** (version 2026.1+).
 
- - SQL Scripts 
+### Dashboard Sheets
 
- - Final Report (PDF) 
+The workbook contains **30+ worksheets** organized around the following themes:
 
- - PowerPoint Presentation 
+#### KPI Cards
+- Total Sales, Total Profit, Profit Margin
+- Total Orders, Avg. Order Value, Avg. Return Value
+- Shipping Time, Total Discount, Loss Value, Loss %
+- Number of Products, Returned Orders Count
 
-<h3><strong> 6. Review & Finalization <strong></h3>
+#### Profitability Analysis
+- Monthly Profit Trend
+- Profit Waterfall by Category
+- Discount vs. Profit scatter
+- Loss % by Region
+- Loss by Sub-Category
+- The "Loss Leader Matrix"
 
+#### Returns Analysis
+- Return Rate vs. Discount
+- Return by Category
+- Return over Time
+- Return Impact Heat Map
+- The "Reliability" Check
 
-  - Data validation & accuracy checks
-  - KPI verification
-  - Dashboard usability improvements
-  - Final proofreading 
+#### Regional & Customer Analysis
+- Regional Manager Scorecard
+- Customer Loyalty Cohort Heatmap
+- Order Frequency Distribution
+- Pareto Chart (top products/customers)
+- Shipping Time vs. Profit
 
-<h3><strong> 7. Final Presentation Project objectives <strong></h3>
+#### Interactive Tools
+- The "Prioritization" Tool
 
+### Data Model
 
-  - Data preparation process
-  - Key insights
-  - Actionable recommendations
-  - Dashboard demo
+```
+Orders  ──(LEFT JOIN on Order ID)──  Returns
+  │
+  └──(LEFT JOIN on Region)──  People
+```
 
-<hr>
+---
 
-<h2><strong> Roles & Responsibilities Role<strong></h2>
+## Dataset
 
-<h3><strong>Responsibilities<strong></h3>
+**Sample Superstore** — a classic retail dataset provided by Tableau.
 
-- Data cleaning, EDA, SQL queries
+| Sheet | Rows | Key Fields |
+|-------|------|------------|
+| Orders | ~10,000 | Sales, Profit, Discount, Category, Region, Ship Mode |
+| Returns | ~296 | Order ID, Returned |
+| People | 4 | Region, Regional Manager |
 
-- Dashboard design & development
+---
 
-- Data modeling & preprocessing
+## Getting Started
 
-- Timeline & coordination
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   cd YOUR_REPO
+   ```
 
-- Documentation LeadReports & presentation 
+2. **Run the Python notebook** (see instructions above)
 
-<hr>
+3. **Open the dashboard** — double-click `DEPI_Final_Project_2_.twbx` in Tableau Desktop or upload it to Tableau Public
 
-<h3><strong> Key Performance Indicators (KPIs)<strong></h3>
+---
 
-- Technical KPIs Data accuracy ≥ 98% 
+## Tools & Technologies
 
-- Dashboard load time < 5 seconds 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?logo=tableau)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)
 
-- Full dataset feature coverage Business 
+---
 
-- KPIs Identify top revenue categories Regional performance benchmarking 
+## Team Members
 
-- Customer segment contribution 
+Made as part of the **DEPI (Digital Egypt Pioneers Initiative)** final project.
 
-- Shipping efficiency metrics Actionable insights for stakeholders 
-
-<hr>
-
-<h2><strong> Tools & Technologies Tool<strong></h2>
-
-<table>
-<thead>
-<tr>
-<td>
-<p><strong>Tool</strong></p>
-</td>
-<td>
-<p><strong>Purpose</strong></p>
-</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Python</strong> (pandas, matplotlib, scikit-learn)</p>
-</td>
-<td>
-<p>Data cleaning, EDA, visualizations</p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>SQL</strong></p>
-</td>
-<td>
-<p>Data modeling, querying, relationships</p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>Tableau</strong></p>
-</td>
-<td>
-<p>Interactive dashboard &amp; reporting</p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>Excel</strong></p>
-</td>
-<td>
-<p>Initial data exploration &amp; preprocessing</p>
-</td>
-</tr>
-</tbody>
-</table>
-<hr>
-
-<h2><strong>Repository Structure<strong></h2>
-<p>Superstore-sales-analysis</p>
-<p>├── 📂 data/</p>
-<p>│&nbsp;&nbsp; └── Superstore_Sales_Dataset.csv</p>
-<p>├── 📂 notebooks/</p>
-<p>│&nbsp;&nbsp; └── superstore_analysis.ipynb</p>
-<p>├── 📂 sql/</p>
-<p>│&nbsp;&nbsp; └── data_model.sql</p>
-<p>│&nbsp;&nbsp; └── queries.sql</p>
-<p>├── 📂 dashboard/</p>
-<p>│&nbsp;&nbsp; └── superstore_dashboard.twb</p>
-<p>├── 📂 reports/</p>
-<p>│&nbsp;&nbsp; └── final_report.pdf</p>
-<p>│&nbsp;&nbsp; └── presentation.pptx</p>
-<p>└── README.md</p>
-<hr>
-
-<h2><strong> Expected Impact<strong></h2>
-
-<strong> This project enables data-driven retail optimization by<strong>
-
-- Identifying high- and low-performing product categories. 
-
-- Highlighting regional sales opportunities. 
-
-- Understanding customer behavior Improving shipping efficiency. 
-
-- Supporting strategic decision-making through clear visuals.
-
-<hr>
-
+| Name | LinkedIn |
+|------|----------|
+| Basel Atawya | [linkedin.com/in/basel-atawya](https://www.linkedin.com/in/basel-atawya/) |
+| Ahmed Elkholy | [linkedin.com/in/ahmed-elkholy-1ba6602b8](https://www.linkedin.com/in/ahmed-elkholy-1ba6602b8) |
+| Karim Bassyouny | [linkedin.com/in/karim-bassyouny-61488b233](https://www.linkedin.com/in/karim-bassyouny-61488b233/) |
