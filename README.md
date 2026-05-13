@@ -20,6 +20,42 @@ This project performs a full analysis of retail sales, profitability, discounts,
 
 ---
 
+
+## Dataset
+
+**Sample Superstore** — a classic retail dataset provided by Tableau.
+
+| Sheet | Rows | Key Fields |
+|-------|------|------------|
+| Orders | ~10,000 | Sales, Profit, Discount, Category, Region, Ship Mode |
+| Returns | ~296 | Order ID, Returned |
+| People | 4 | Region, Regional Manager |
+
+---
+
+## Tools & Technologies
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?logo=tableau)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)
+
+---
+
+## Team Members
+
+Made as part of the **DEPI (Digital Egypt Pioneers Initiative)** final project.
+
+| Name | LinkedIn |
+|------|----------|
+| Basel Atawya | [linkedin.com/in/basel-atawya](https://www.linkedin.com/in/basel-atawya/) |
+| Ahmed Elkholy | [linkedin.com/in/ahmed-elkholy-1ba6602b8](https://www.linkedin.com/in/ahmed-elkholy-1ba6602b8) |
+| Karim Bassyouny | [linkedin.com/in/karim-bassyouny-61488b233](https://www.linkedin.com/in/karim-bassyouny-61488b233/) |
+
+
+---
+
+
 ## Python Notebook — `project.ipynb`
 
 ### What it does
@@ -95,49 +131,3 @@ Orders  ──(LEFT JOIN on Order ID)──  Returns
   └──(LEFT JOIN on Region)──  People
 ```
 
----
-
-## Dataset
-
-**Sample Superstore** — a classic retail dataset provided by Tableau.
-
-| Sheet | Rows | Key Fields |
-|-------|------|------------|
-| Orders | ~10,000 | Sales, Profit, Discount, Category, Region, Ship Mode |
-| Returns | ~296 | Order ID, Returned |
-| People | 4 | Region, Regional Manager |
-
----
-
-## Getting Started
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
-   ```
-
-2. **Run the Python notebook** (see instructions above)
-
-3. **Open the dashboard** — double-click `DEPI_Final_Project_2_.twbx` in Tableau Desktop or upload it to Tableau Public
-
----
-
-## Tools & Technologies
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?logo=tableau)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)
-
----
-
-## Team Members
-
-Made as part of the **DEPI (Digital Egypt Pioneers Initiative)** final project.
-
-| Name | LinkedIn |
-|------|----------|
-| Basel Atawya | [linkedin.com/in/basel-atawya](https://www.linkedin.com/in/basel-atawya/) |
-| Ahmed Elkholy | [linkedin.com/in/ahmed-elkholy-1ba6602b8](https://www.linkedin.com/in/ahmed-elkholy-1ba6602b8) |
-| Karim Bassyouny | [linkedin.com/in/karim-bassyouny-61488b233](https://www.linkedin.com/in/karim-bassyouny-61488b233/) |
