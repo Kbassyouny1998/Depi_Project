@@ -8,7 +8,7 @@
 
 ```
 ├── project.ipynb                   # Python data preparation & EDA notebook
-├── DEPI_Final_Project_2_.twbx      # Tableau packaged workbook (dashboard)
+├── DEPI Final Project 3 .twbx      # Tableau packaged workbook (dashboard)
 └── README.md
 ```
 
